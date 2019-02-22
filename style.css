@@ -1,0 +1,15 @@
+body
+{
+      font-family: nyt-franklin, helvetica, arial, sans-serif;
+      background-color:white;
+}
+
+#navBar
+{
+  position:fixed;
+  background-color:red;
+  height: 3%;
+  width:100%;
+
+
+}
