@@ -7,9 +7,28 @@ body
 #navBar
 {
   position:fixed;
-  background-color:red;
-  height: 3%;
+  background-color:white;
+  height: 4.5%;
   width:100%;
-
+  top:0;
+  left:0;
+  right: 0px;
+  border: 1px solid #e2e2e2;
+  margin:0;
+  background-repeat:no-repeat;
+  background-position: 134px ;
+  background-image: url('4a04de7b7810cd45be4257a751d74689.png');
+}
+#articleTitle
+{
+  display: inline-block;
+  position:absolute;
+  max-width: 346.152px;
+  color:black;
+  top:7%;
+  font-style: italic;
+  left:34%;
+  font-family: nyt-cheltenham,georgia;
+  font-size: 20px;
 
 }
