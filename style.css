@@ -11,6 +11,7 @@ body
   height: 4.5%;
   width:100%;
   top:0;
+z-index:1;
   left:0;
   right: 0px;
   border: 1px solid #e2e2e2;
@@ -23,12 +24,44 @@ body
 {
   display: inline-block;
   position:absolute;
-  max-width: 346.152px;
+  max-width: 350px;
+    width:100%;
   color:black;
   top:7%;
   font-style: italic;
   left:34%;
   font-family: nyt-cheltenham,georgia;
   font-size: 20px;
-
 }
+img{
+  height: auto;
+max-width: 100%;
+}
+#headerImage
+{
+  position:absolute;
+    top:25%;
+    left: 20%;
+    
+  
+}
+#headerCaption
+{
+    position:relative;
+    width: 70%;
+    height:50%;
+    color:gray;
+    font-size:14px;
+    top:10px;
+}
+
+#articleContentContainer
+{
+    position:absolute;
+    background-color:red;
+    left:33.5%;
+    top:110%;
+    width:600px;
+    height:116px;
+}
+
